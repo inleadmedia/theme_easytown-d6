@@ -60,8 +60,8 @@ div.comment blockquote { font-size: 12px;}
         #user-login-form .form-submit {border: 1px solid #EEEEEE; border-bottom: 4px solid #EEEEEE; background: white; height:21px; padding: 0 10px; margin-left: 10px; text-transform: uppercase; cursor: pointer; color: #CCCCCC; font-weight: bold; font-size: 11px;}
         #user-login-form #edit-name-wrapper input {width:98px;}
 	#user-login-form #edit-pass-wrapper input {width:98px;}
-        #user-login-form #edit-name-wrapper {width:102px; float:left; margin-right:10px; }
-	#user-login-form #edit-pass-wrapper {width:102px; float:left;}
+        #user-login-form #edit-name-wrapper {width:98px; float:left; margin-right:10px; }
+	#user-login-form #edit-pass-wrapper {width:98px; float:left;}
 	#user-login-form .form-button {padding:0; float:left;}
 
 	#search {width: 588px;} 
@@ -179,7 +179,7 @@ div.comment blockquote { font-size: 12px;}
 
 
 
-.object-information { font-size: 12px; color: #8d8d8d; }
+.object-information { font-size: 12px; color: #8d8d8d; margin: 0; }
   .object-information h3 { width:480px; }
   .object-information .ding-box-wide ul li.first, .object-information .ding-box-wide ul li { font-size: 12px; }
 .pane-recommendation_list ul.ting-recommendation li { font-size: 12px;}
@@ -287,7 +287,7 @@ body.node-type-page .panel-threecol-left-stacked-right .panel-middle {background
 .node .content h1 a { text-decoration: underline; color: #D61910; }
 
 .content-right {width:215px;}
-.content-right h3{width:200px;padding:0 0 2px 10px;}
+.content-right h3{width:200px;padding:0 0 0 10px;}
 
   .panel-right ul.menu li.leaf {margin:0}
   .panel-right  ul.menu li.leaf a {background: transparent url(../images/arrow.png) no-repeat 0  5px; padding:0 0  0 10px; font-size:10px; font-weight:bold;text-transform:uppercase; color:#000; margin-left:5px;}
@@ -544,4 +544,35 @@ ul.alma-cart-buttons li {padding:0 5px;}
 /** Social services and DruPac styling **/
 .dp-clone {
 	display: none;
+}
+
+
+.ding-ting-object #pagebody-inner #content #content-inner #content-main div.content-right {
+  display: none;
+}
+
+.panel-threecol-left-stacked .pane-library_location .library-info h3 {
+  margin: 11px 0 0;
+}
+
+.pane-library_location .library-info-inner {
+  min-height: 100px;
+}
+
+#ting-logo {
+  height: 0;
+  left: 925px;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  top: 120px;
+  z-index: 10;
+}
+
+#page {
+  overflow: visible;
+}
+
+#container {
+  overflow: hidden;
 }
