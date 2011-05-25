@@ -204,7 +204,6 @@
                   </ul>
               <?php } ?>
             </div>
--->
             <div class="clearfix"></div>
             <hr />
 
@@ -247,7 +246,6 @@
             </ul>
 
             <hr />
-<!--
             <h2>Ikke ledig?</h2>
             <br />
             <br />
