@@ -50,6 +50,9 @@
                   <?php print theme('image', $image_url, '', '', null, false); ?>
                 <?php } ?>
               </div>
+              <div class="left-column left">
+                <?php print theme('alma_cart_reservation_buttons', $object); ?>
+              </div>
             </div>
 
             <div>

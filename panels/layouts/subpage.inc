@@ -2,7 +2,7 @@
 /**
  * Implementation of HOOK_panels_layouts().
  */
-function elsinore_subpage_panels_layouts() {
+function easytown_subpage_panels_layouts() {
   $items['subpage'] = array(
     'title' => t('subpage - 2 spalter'),
     'icon' => 'subpage.png',

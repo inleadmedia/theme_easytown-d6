@@ -2,7 +2,7 @@
 /**
  * Implementation of HOOK_panels_layouts().
  */
-function elsinore_frontpage_panels_layouts() {
+function easytown_frontpage_panels_layouts() {
   $items['frontpage'] = array(
     'title' => t('Frontpage 3 spalter'),
     'icon' => 'frontpage.png',

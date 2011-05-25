@@ -1,6 +1,6 @@
-name        = Elsinore
-description = Easynore theme
-screenshot  = screenshot.png
+name        = EasyTown
+description = EasyTown theme by INLEAD
+screenshot  = easytown.png
 core        = 6.x
 engine      = phptemplate
 base theme  = dynamo
@@ -26,7 +26,7 @@ features[] = primary_links
 features[] = secondary_links
 
 ;--------------------- styles ------------------------------
-stylesheets[all][]   = style/elsinore.css
+stylesheets[all][]   = style/easytown.css
 stylesheets[print][] = style/print.css
 stylesheets[all][]  = style/search.css
 stylesheets[all][]  = style/ting.css
@@ -34,10 +34,10 @@ stylesheets[all][]  = style/developer.css
 
 scripts[] = js/ting_facet_browser.js
 
-scripts[] = script/elsinore.js
+scripts[] = script/easytown.js
 scripts[] = script/DD_belatedPNG_0.0.8a-min.js
 scripts[] = script/jquery.tools.min.js
-ie stylesheets[if IE 6][all][] = style/elsinore-ie6.css
+ie stylesheets[if IE 6][all][] = style/easytown-ie6.css
 
 ;drupal_add_js($path . '/js/ting_facet_browser.js', 'module', 'footer', TRUE);
 ;drupal_add_js($data = NULL, $type = 'module', $scope = 'header', $defer = FALSE, $cache = TRUE, $preprocess = TRUE)

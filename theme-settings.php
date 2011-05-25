@@ -7,9 +7,9 @@ drupal.org/project/zen
 include_once './' . drupal_get_path('theme', 'mothership') . '/theme-settings.php';
 
 
-function elsinore_settings($saved_settings) {
+function easytown_settings($saved_settings) {
   // Get the default values from the .info file.
-  $defaults = mothership_theme_get_default_settings('elsinore');
+  $defaults = mothership_theme_get_default_settings('easytown');
 
   $settings = array_merge($defaults, $saved_settings);
   // Add the base theme's settings.
