@@ -576,3 +576,5 @@ ul.alma-cart-buttons li {padding:0 5px;}
 #container {
   overflow: hidden;
 }
+
+.ui-tabs-panel { clear: none; width: 500px; }
