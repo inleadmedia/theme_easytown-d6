@@ -1,6 +1,6 @@
 name        = EasyTown
 description = EasyTown theme by INLEAD
-screenshot  = easytown.png
+screenshot  = easytown.jpg
 core        = 6.x
 engine      = phptemplate
 base theme  = dynamo
