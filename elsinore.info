@@ -1,0 +1,47 @@
+name        = Elsinore
+description = Easynore theme
+screenshot  = screenshot.png
+core        = 6.x
+engine      = phptemplate
+base theme  = dynamo
+
+;--------------------- regions -----------------------------
+regions[account]        = account
+regions[search]         = search
+regions[header]         = header
+regions[left]           = left sidebar
+regions[right]          = right sidebar
+regions[footer]         = footer
+
+
+;--------------------- features ----------------------------
+;features[] = logo
+features[] = name
+;features[] = node_user_picture
+;features[] = comment_user_picture
+;features[] = search
+features[] = favicon
+;features[] = slogan
+features[] = primary_links
+features[] = secondary_links
+
+;--------------------- styles ------------------------------
+stylesheets[all][]   = style/elsinore.css
+stylesheets[print][] = style/print.css
+stylesheets[all][]  = style/search.css
+stylesheets[all][]  = style/ting.css
+stylesheets[all][]  = style/developer.css
+
+scripts[] = js/ting_facet_browser.js
+
+scripts[] = script/elsinore.js
+scripts[] = script/DD_belatedPNG_0.0.8a-min.js
+scripts[] = script/jquery.tools.min.js
+ie stylesheets[if IE 6][all][] = style/elsinore-ie6.css
+
+;drupal_add_js($path . '/js/ting_facet_browser.js', 'module', 'footer', TRUE);
+;drupal_add_js($data = NULL, $type = 'module', $scope = 'header', $defer = FALSE, $cache = TRUE, $preprocess = TRUE)
+
+;---------------------panels plugins ----------------------------
+plugins[panels][layouts] = panels/layouts
+plugins[panels][styles]  = panels/styles

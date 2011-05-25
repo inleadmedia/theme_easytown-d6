@@ -1,0 +1,87 @@
+#navigation li a{margin:0 8px;}
+#navigation li.first a{margin:0 8px 0 0;}
+#header ul li div.field-opening-hours-scope{width:90px;}
+#header ul li div.title{width:140px;}
+
+
+#pagefooter-inner ul.menu li.expanded a {
+  color: #DA511F;
+  display: block;
+  font-weight: bold;
+  font-size: 13px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+#pagefooter-inner ul.menu li.expanded ul.menu li.leaf a {
+  display: inline;
+  margin-bottom: 0px;
+  text-transform: none;
+}
+
+div.ac_results li {
+    line-height:11px;
+    font-size:11px;
+}
+
+
+#ting-search-form label {
+    left:-284px;
+}
+
+.content-left .panel-left .view-taxonomy-term-view {
+    width: 680px;
+}
+
+.pane-library_list-panel_pane_1 h3{display:none;}
+
+#account-profile {
+    margin-top:0px;
+}
+
+#account-profile .user .logout {
+    float:right;
+    margin-right:10px;
+    position:absolute;
+    right:0;
+    top:10px;
+    margin-top:-10px;
+}
+
+#account-profile .user .logout a {
+    background:url("/profiles/ding/themes/elsinore/images/pointer-logout.png") no-repeat scroll 0 4px transparent;
+    padding-left:10px;
+}
+
+body.not-front #pagebody {
+    margin-top:-28px;
+}
+
+#ting-object .tab-navigation-main {
+    width:549px;
+
+}
+
+.ting-overview .right-column {
+    width:309px;
+}
+
+.object-information {
+    width:489px;
+}
+
+.ting-item .alma-availability {
+    width:509px;
+}
+
+body.page-arrangementer .panel-middle  {
+    width:530px;
+}
+
+.view-event-list .view-filters  {
+    padding-left: 200px;
+}
+
+#ting-search-form .form-text {
+    width: 250px;
+}
