@@ -50,7 +50,7 @@ br {
 <div id="container" class="clearfix">
 
     <div id="page" class="minheight">
-      <div id="ting-logo"><a href="http://www.ting.dk" target="_blank"><img src="/profiles/ding/easytown-d6/images/tingOverlay.png" /></a></div>
+      <div id="ting-logo"><a href="http://www.ting.dk" target="_blank"><img src="/profiles/ding/easytown/images/tingOverlay.png" /></a></div>
       <div id="page-inner" class="clearfix">
 
         <div id="pageheader">
